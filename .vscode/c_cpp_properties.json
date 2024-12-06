@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "3DS Windows",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/devkitPro/libctru/include",
+                "C:/devkitPro/portlibs/3ds/include"
+            ],
+            "defines": [
+                "__3DS__",
+                "_GNU_SOURCE=1"
+            ],
+            "compilerPath": "C:/devkitPro/devkitARM/bin/arm-none-eabi-gcc.exe",
+            "intelliSenseMode": "linux-gcc-arm",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
