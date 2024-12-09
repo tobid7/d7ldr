@@ -30,5 +30,6 @@ int main(int argc, char* argv[]) {
     }
   }
   D7LDR_Deinit(loader);
+  gfxExit();
   return 0;
 }

@@ -13,7 +13,7 @@ For C there is a C Wrapper called `d7ldr.h`
 To build this Project you need the following Packages
 
 ```bash
-(dkp)-pacman -S 3ds-dev 3ds-cmake 3ds-portlibs
+(dkp-)pacman -S 3ds-dev 3ds-cmake 3ds-portlibs
 # Portlibs is optional but you should have them installed as well
 ```
 

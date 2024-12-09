@@ -30,5 +30,6 @@ int main(int argc, char* argv[]) {
     }
   }
   loader->Deinit();
+  gfxExit();
   return 0;
 }
